@@ -1,0 +1,98 @@
+
+.container {
+    padding: 0px 100px 100px 100px;
+    margin-top: 60px;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid rgb(173, 170, 170);
+    padding: 10px;
+
+}
+
+
+#customers tr:hover {
+    background-color: #ccc4c4;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+}
+
+
+#customers #mid {
+    text-align: center;
+}
+
+#customers #up {
+    background-color: rgb(0, 0, 0);
+    border-color: white;
+    border-radius: 15px;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+#customers #up:hover {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#customers #del {
+    background-color: rgb(0, 0, 0);
+    border-color: white;
+    border-radius: 15px;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+#customers #del:hover {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#customers button {
+    width: 100%;
+}
+
+h1 {
+    color: rgb(5, 5, 3);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container #new3 {
+    padding: 8px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container #new3:hover {
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+}
